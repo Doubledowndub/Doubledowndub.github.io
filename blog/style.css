@@ -163,10 +163,8 @@ nav ul li:nth-child(2) {
     margin-top: 0;
 }
 
-.main-content {
+.main-section {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
 }
 
 main {
