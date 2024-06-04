@@ -47,6 +47,8 @@
 
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
+/* ------ START WRITING YOUR CODE BELOW ------ */
+
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,900,900i|Roboto+Condensed:400,400i,700|Roboto:400,400i,900|Shadows+Into+Light');
 
@@ -167,25 +169,26 @@ section {
 
 aside {
     display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #f9f9f9;
 }
 
 figure {
     background-color: #242F40;
 }
 
-.figure-1 {
+.figure-1,
+.figure-2,
+.figure-3 {
     width: 49%;
     margin-right: 1%;
-}
-
-.figure-2 {
-    width: 49%;
     margin-left: 1%;
 }
 
 figure img {
     width: 100%;
-    margin: 0;
+    margin: 0;  
 }
 
 figcaption {
@@ -199,6 +202,18 @@ figcaption {
 figcaption a {
     font-size: 0.75rem;
     color: #B1BED3;
+}
+
+.article-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* Additional styles for aside images */
+aside img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
 }
 
 /* Footer */
@@ -238,5 +253,3 @@ header {
 header:hover {
     transform: translateY(-10px);
 }
-
-
