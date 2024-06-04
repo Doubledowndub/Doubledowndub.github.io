@@ -103,8 +103,11 @@ h1 {
 h1 span {
     color: #8C2B3F;
 }
-
-/* Box, Layout, and Border */
+img {
+    width:100%;
+    display:block;
+    max-width:25rem;
+}/* Box, Layout, and Border */
 nav {
     border: 0.0625rem solid #333;
     background-color: #8FB0D0;
