@@ -108,6 +108,7 @@ h1 span {
 nav {
     border: 0.0625rem solid #333;
     background-color: #8FB0D0;
+    padding:0 5%;
 }
 nav a {
     display:inline-block;
