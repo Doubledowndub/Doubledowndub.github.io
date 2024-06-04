@@ -222,9 +222,9 @@ figcaption a {
     color: #B1BED3;
 }
 
-.article-image img {
-    width: 100%;
-    height: auto;
+.article-image {
+    float:left;
+    margin:0 1rem 0 0;
 }
 
 /* Footer */
