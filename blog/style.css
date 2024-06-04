@@ -168,9 +168,9 @@ nav ul li:nth-child(2) {
 }
 
 main {
-    flex: 3;
-    padding-left: 2%;
-    padding-right: 2%;
+    margin:0 auto;
+    padding-bottom:.25rem;
+    width: 90%;
 }
 
 section {
