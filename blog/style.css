@@ -106,13 +106,18 @@ h1 span {
 
 /* Box, Layout, and Border */
 nav {
-    display: flex;
-    flex-direction: column;
+    display:
     width: 14rem;
     border: 0.0625rem solid #333;
     background-color: #8FB0D0;
 }
-
+nav a {
+    display:inline-block;
+    font-size:1.75rem;
+    padding:2rem 6rem 2rem 0;
+    color:#27476E;
+    font-weight:bold;
+}
 nav img {
     width: 100%;
     border-bottom: 0.0625rem solid #333;
