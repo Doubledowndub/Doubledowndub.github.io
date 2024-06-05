@@ -89,7 +89,7 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: 3.75rem; /* 60px */
-  margin: 1.125rem 0; /* 18px */
+  margin: 1.125rem; /* 18px */
   text-align: center;
 }
 
