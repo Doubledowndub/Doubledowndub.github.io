@@ -81,7 +81,7 @@ h2 {   font-size: 3rem;
 h3 {font-size: 2rem;
   font-weight: normal;
   text-shadow: none;
-  color: black;
+  foreground-color: black;
   text-align: center;
   font-family: Alfa Slab One; 
    }
