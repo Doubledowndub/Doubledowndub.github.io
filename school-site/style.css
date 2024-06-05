@@ -75,14 +75,14 @@ header, footer {
 /* NOTE: While you will be using some of the same CSS properties, the VALUES 
    may need to be different in order to style the page correctly. */
 @font-face {
-    font-family:Josefinsllab;
+    font-family:'Josefinsllab';
     src: josefinslab-regular.ttf;
     font-style:normal;
     font-weight:normal;
 }
 @font-face {
 
-    font-family:montserrat;
+    font-family:'montserrat';
     src: (montserrat-regular.ttf);
     font-style:normal;
     font-weight:normal;
