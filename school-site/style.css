@@ -76,75 +76,107 @@ header, footer {
    may need to be different in order to style the page correctly. */
 
 
-@font-face {
-    font-family: 'CustomFont1';
-    src: url('path/to/font1.woff2') format('woff2'),
-         url('path/to/font1.woff') format('woff');
-   
+/* Root (html) styles */
+html {
+  font-family: 'Montserrat', Arial, sans-serif; /* Fallbacks */
 }
 
-@font-face {
-    font-family: 'CustomFont2';
-    src: url('path/to/font2.woff2') format('woff2'),
-         url('path/to/font2.woff') format('woff');
-  
+/* Headings */
+h1, h2, h3, h4 {
+  font-family: 'Josefinslab', serif, Arial, sans-serif; /* Fallbacks */
+  letter-spacing: 0.125rem; /* 2px */
 }
 
-:root,
-figcaption,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-li {
-    font-family: 'CustomFont1', sans-serif;
+h1 {
+  font-size: 3.75rem; /* 60px */
+  margin: 1.125rem 0; /* 18px */
+  text-align: center;
 }
 
-p + h2 + p {
-
+h2 {
+  font-size: 1.5rem; /* 24px */
 }
 
+/* Paragraphs and Listed Items */
+p, li {
+  font-size: 0.75rem; /* 12px */
+  letter-spacing: 0.03125rem; /* 0.5px */
+  word-spacing: 0.125rem; /* 2px */
+}
 
+h2 + p {
+  text-indent: 1.5rem; /* 24px */
+}
+
+/* Figcaption */
+figcaption {
+  font-size: 0.75rem; /* 12px */
+  margin-bottom: 2rem; /* 32px */
+}
+
+/* Links */
 a {
-    color: blue; 
+  color: #33658A;
+  text-decoration: none;
+  outline: none;
 }
 
-a:link,
-a:visited,
-a:focus,
-a:hover {
+a:focus, a:hover {
+  text-decoration: none;
+  color: #33658A;
+  outline: none;
 }
 
+a:visited {
+  color: #33658A;
+}
 
-ol,
+.long-list a:hover {
+  text-transform: uppercase;
+}
+
+/* Lists */
+ul, ol {
+  margin: 1rem 0; /* 16px top/bottom, 0 left/right */
+}
+
 ul {
- 
+  list-style-type: square;
 }
 
-.long-list:hover {
- 
+ol {
+  list-style-type: lower-alpha;
 }
 
+/* Navigation Menu */
 nav {
-
+  padding-left: 0;
+  margin-top: 0.25rem; /* 4px */
 }
 
 nav a {
-  
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  line-height: 3;
+  text-align: center;
+  font-size: 1.125rem; /* 18px */
+  margin-bottom: 1.5rem; /* 24px */
+  border-bottom: 0.0625rem solid #33658A; /* 1px */
 }
 
-nav a:focus,
-nav a:hover,
+nav a:focus, nav a:hover {
+  color: #FFF;
+  background-color: #33658A;
+}
+
 nav a:active {
-  
+  color: #FFF;
+  background-color: #000;
 }
 
-
+/* Footer */
 footer {
-
-}  
-
+  text-align: center;
+}
 
