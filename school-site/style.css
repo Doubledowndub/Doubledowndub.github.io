@@ -153,32 +153,35 @@ ul {
 ol {
   list-style-type: lower-alpha;
 }
-  
+
 nav {
-    float: left;
-    width:11.25rem;
-}
-    
-nav a {
-  text-decoration: none;
-  display: inline-block;
-  width: 100%;
-  line-height: 3;
-  text-align: center;
-  font-size: 1.125rem; 
-  margin-bottom: 1.5rem;
-  border: 0.0625rem solid #33658A; 
-}
-    
-nav a:focus, 
-nav a:hover {
-  color: #FFF;
-  background-color: #33658A;
+    padding-left: 0;
+    margin-top: 4rem; 
 }
 
+nav a {
+    text-decoration: none; 
+    display: inline-block; 
+    width: 100%; 
+    line-height: 3; 
+    text-align: center; 
+    font-size: 1.125rem; 
+    margin-bottom: 1.5rem;
+    border: 0.0625rem solid #33658A;  
+    color: #FFF; 
+    background-color: #000; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+nav a:focus, nav a:hover {
+    color: #FFF; 
+    background-color: #33658A; 
+}
+ 
+
 nav a:active {
-  color: #FFF;
-  background-color: #000;
+    color: #FFF; 
+    background-color: #33658A; 
 }
 
 footer {
