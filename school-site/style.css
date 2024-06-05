@@ -167,9 +167,7 @@ nav a {
     text-align: center; 
     font-size: 1.125rem; 
     margin-bottom: 1.5rem;
-    border: 0.0625rem solid #33658A;  
-    color: #FFF; 
-    background-color: #FFF; 
+    border: 0.0625rem solid #33658A;   
     transition: background-color 0.3s, color 0.3s; 
 }
 
