@@ -66,28 +66,28 @@ h1 {
 
 h1, h2, h3, h4 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  color: #333; /* You can change this color */
-  font-family: Arial, sans-serif; /* Change if needed */
+  color: #333; 
+  font-family: Arial, sans-serif; 
   margin: 0;
   text-transform: uppercase;
   text-align: center;
 }
 
-h2 {   font-size: 3rem; /* 48px */
-  letter-spacing: 0.25rem; /* 4px */
+h2 {   font-size: 3rem; 
+  letter-spacing: 0.25rem; 
   font-weight: norma
 }
 
-h3 {font-size: 2rem; /* 32px */
+h3 {font-size: 2rem;
   font-weight: normal;
   text-shadow: none;
   color: black;
    }
 
-h4 {font-size: 1.5rem; /* 24px */
-  letter-spacing: 0.25rem; /* 4px */
+h4 {font-size: 1.5rem; 
+  letter-spacing: 0.25rem; 
   font-weight: normal;
-  padding-bottom: 1.125rem; /* 18px */
+  padding-bottom: 1.125rem; 
 }
    }
 
@@ -95,9 +95,9 @@ h4 > span {
   padding: 0 0.5rem;
    }
 
-h5 {  font-size: 1rem; /* 16px */
-  margin-top: 0.25rem; /* 4px */
-  padding: 0.5rem; /* 8px */
+h5 {  font-size: 1rem; 
+  margin-top: 0.25rem; 
+  padding: 0.5rem; 
   background-color: #333;
   color: #FFF;
   font-weight: normal;
@@ -111,50 +111,32 @@ section {
     }
 
 P {
-    top-margin: 1.00rem
-    bottom-margin: 1.00rem
-    left-margin: auto;
-    right-margin: auto;
-    padding-top: 0rem;
-    padding-bottom: 0rem;
-    padding-left: 1.00rem;
-    padding-right: 1.00rem;
-    text-align:left;
-    width: 90%;
+  margin: 1rem auto; 
+  padding: 0 1rem; 
+  width: 90%;
+  text-align: left;
 }
 
 /* Image & Figure */
 
 img {
-    width: 100%;
-    top-margin: 0rem;
-    bottom-margin: 0rem;
-    left-margin: auto;
-    right-margin: auto;
-    max-width: 50.00rem;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 50rem;
 }
 
 figure {
-    bottom-margin: 2.00rem;
+     margin-bottom: 2rem;
     }
 
 figcaption {
-    top-padding: 0.50rem;
-    text-align: right;
+  padding-top: 0.5rem; 
+  text-align: right;
 }
-
 
 /* Footer */
 
 footer {
-    padding-top: 1.00rem;
-    padding-bottom: 1.00rem;
-    padding-left: 1.00rem;
-    padding-right: 1.00rem;
-
-}
-top border {
-width: 1.00rem;
-style: solid;
-color: #333
+  padding: 1rem; 
+  border-top: 2px solid #333;
 }
