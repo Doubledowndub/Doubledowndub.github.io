@@ -76,45 +76,75 @@ header, footer {
    may need to be different in order to style the page correctly. */
 
 
+@font-face {
+    font-family: 'CustomFont1';
+    src: url('path/to/font1.woff2') format('woff2'),
+         url('path/to/font1.woff') format('woff');
+   
+}
 
-/* Imported Typfaces */
+@font-face {
+    font-family: 'CustomFont2';
+    src: url('path/to/font2.woff2') format('woff2'),
+         url('path/to/font2.woff') format('woff');
+  
+}
 
+:root,
+figcaption,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+    font-family: 'CustomFont1', sans-serif;
+}
 
+p + h2 + p {
 
-
-
-/* Typography Styles */
-
-
-
-
-
-
-/* Link Styling */
-
-
-
-
-
-
-/* List Styling */
-
-
-
-
-
-
-/* Navigation Menu */
-
-
-
+}
 
 
+a {
+    color: blue; 
+}
 
-/* Footer Styles */
+a:link,
+a:visited,
+a:focus,
+a:hover {
+}
 
 
+ol,
+ul {
+ 
+}
+
+.long-list:hover {
+ 
+}
+
+nav {
+
+}
+
+nav a {
+  
+}
+
+nav a:focus,
+nav a:hover,
+nav a:active {
+  
+}
 
 
+footer {
+
+}  
 
 
