@@ -169,7 +169,7 @@ nav a {
     margin-bottom: 1.5rem;
     border: 0.0625rem solid #33658A;  
     color: #FFF; 
-    background-color: #000; 
+    background-color: #FFF; 
     transition: background-color 0.3s, color 0.3s; 
 }
 
