@@ -229,7 +229,7 @@ article {
 }
 
 .subsection {
-clear:left;
+    clear:left;
     margin-top:4rem;
     margin-bottom:2rem;
     padding:0;
