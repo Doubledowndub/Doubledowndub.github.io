@@ -162,7 +162,8 @@ nav {
 nav a {
   text-decoration: none;
   display: inline-block;
-  padding: 0.5rem 1rem; /* Adjust padding as needed */
+  width: 100%
+  padding: 0.5rem 1rem;
   line-height: 3;
   text-align: center;
   font-size: 1.125rem;
