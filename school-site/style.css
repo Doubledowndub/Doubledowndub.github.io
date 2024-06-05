@@ -162,12 +162,12 @@ nav {
 nav a {
   text-decoration: none;
   display: inline-block;
-  width: 100%;
+  padding: 0.5rem 1rem; /* Adjust padding as needed */
   line-height: 3;
   text-align: center;
-  font-size: 1.125rem; 
-  margin: 1.5rem;
-  border: 0.0625rem solid #33658A; 
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+  border: 0.0625rem solid #33658A;
 }
 
 nav a:focus, nav a:hover {
