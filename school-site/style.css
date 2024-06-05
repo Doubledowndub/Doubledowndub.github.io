@@ -75,46 +75,40 @@ header, footer {
 /* NOTE: While you will be using some of the same CSS properties, the VALUES 
    may need to be different in order to style the page correctly. */
 
-
-/* Root (html) styles */
 html {
-  font-family: 'Montserrat', Arial, sans-serif; /* Fallbacks */
+  font-family: 'Montserrat', Arial, sans-serif; 
 }
 
-/* Headings */
 h1, h2, h3, h4 {
-  font-family: 'Josefinslab', serif, Arial, sans-serif; /* Fallbacks */
-  letter-spacing: 0.125rem; /* 2px */
+  font-family: 'Josefinslab', serif, Arial, sans-serif; 
+  letter-spacing: 0.125rem; 
 }
 
 h1 {
-  font-size: 3.75rem; /* 60px */
-  margin: 1.125rem; /* 18px */
+  font-size: 3.75rem; 
+  margin: 1.125rem; 
   text-align: center;
 }
 
 h2 {
-  font-size: 1.5rem; /* 24px */
+  font-size: 1.5rem;
 }
 
-/* Paragraphs and Listed Items */
 p, li {
-  font-size: 0.75rem; /* 12px */
-  letter-spacing: 0.03125rem; /* 0.5px */
-  word-spacing: 0.125rem; /* 2px */
+  font-size: 0.75rem; 
+  letter-spacing: 0.03125rem; 
+  word-spacing: 0.125rem; 
 }
 
 h2 + p {
-  text-indent: 1.5rem; /* 24px */
+  text-indent: 1.5rem;
 }
 
-/* Figcaption */
 figcaption {
-  font-size: 0.75rem; /* 12px */
-  margin-bottom: 2rem; /* 32px */
+  font-size: 0.75rem; 
+  margin-bottom: 2rem; 
 }
 
-/* Links */
 a {
   color: #33658A;
   text-decoration: none;
@@ -135,9 +129,8 @@ a:visited {
   text-transform: uppercase;
 }
 
-/* Lists */
 ul, ol {
-  margin: 1rem 0; /* 16px top/bottom, 0 left/right */
+  margin: 1rem 0; 
 }
 
 ul {
@@ -148,10 +141,9 @@ ol {
   list-style-type: lower-alpha;
 }
 
-/* Navigation Menu */
 nav {
   padding-left: 0;
-  margin-top: 0.25rem; /* 4px */
+  margin-top: 0.25rem; 
 }
 
 nav a {
@@ -160,9 +152,9 @@ nav a {
   width: 100%;
   line-height: 3;
   text-align: center;
-  font-size: 1.125rem; /* 18px */
-  margin-bottom: 1.5rem; /* 24px */
-  border-bottom: 0.0625rem solid #33658A; /* 1px */
+  font-size: 1.125rem; 
+  margin-bottom: 1.5rem;
+  border-bottom: 0.0625rem solid #33658A; 
 }
 
 nav a:focus, nav a:hover {
@@ -175,7 +167,6 @@ nav a:active {
   background-color: #000;
 }
 
-/* Footer */
 footer {
   text-align: center;
 }
