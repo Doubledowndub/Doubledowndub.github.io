@@ -136,14 +136,36 @@ P {
 
 /* Image & Figure */
 
-img {}
+img {
+    width: 100%;
+    top-margin: 0rem;
+    bottom-margin: 0rem;
+    left-margin: auto;
+    right-margin: auto;
+    max-width: 50.00rem;
+}
 
-figure {}
+figure {
+    bottom-margin: 2.00rem;
+    }
 
-figcaption {}
+figcaption {
+    top-padding: 0.50rem;
+    text-align: right;
+}
 
 
 /* Footer */
 
-footer {}
+footer {
+    padding-top: 1.00rem;
+    padding-bottom: 1.00rem;
+    padding-left: 1.00rem;
+    padding-right: 1.00rem;
 
+}
+top border {
+width: 1.00rem;
+style: solid;
+color: #333
+}
