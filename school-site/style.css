@@ -150,10 +150,10 @@ ol {
 }
 
 nav {
-  padding-left: 0;
-  margin-top: 0.25rem; 
+    float: left;
+    width:11.25rem;
 }
-
+    
 nav a {
   text-decoration: none;
   display: inline-block;
