@@ -76,14 +76,14 @@ header, footer {
    may need to be different in order to style the page correctly. */
 @font-face {
     font-family:Josefinsllab;
-    src: url(josefinslab-regular.ttf);
+    src: josefinslab-regular.ttf;
     font-style:normal;
     font-weight:normal;
 }
 @font-face {
 
     font-family:montserrat;
-    src: url(montserrat-regular.ttf);
+    src: (montserrat-regular.ttf);
     font-style:normal;
     font-weight:normal;
 
