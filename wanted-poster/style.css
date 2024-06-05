@@ -2,14 +2,14 @@
 
 @font-face {
     font-family:Lato;
-    src: url(../fonts/lato-regular.ttf);
+    src: url(lato-regular.ttf);
     font-style:normal;
     font-weight:normal;
 }
 @font-face {
 
     font-family:Alfa Slab One;
-    src: url(../fonts/alfa-slab-one-regular.ttf);
+    src: url(alfa-slab-one-regular.ttf);
     font-style:normal;
     font-weight:normal;
 }
@@ -33,7 +33,7 @@ body {
 }
 main {
     background-color:#ddd;
-    background-image:url(../images/wrinkled-white-paper-background.jpg);
+    background-image:url(wrinkled-white-paper-background.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     border:1px solid #333;
@@ -64,9 +64,9 @@ h1 {
     text-align:center;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h4 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  color: #333; 
+  color:darkred;
   font-family: Arial, sans-serif; 
   margin: 0;
   text-transform: uppercase;
@@ -138,5 +138,5 @@ figcaption {
 
 footer {
   padding: 1rem; 
-  border-top: 2px solid #333;
+  border-top: 2rem solid #333;
 }
