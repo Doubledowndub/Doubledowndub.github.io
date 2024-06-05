@@ -60,14 +60,14 @@ h1 {
     letter-spacing: .5rem;
     color:darkred;
     text-shadow:.09375rem .09375rem .09375rem #000;
-    font-family:'Alfa Slab One', Garamond, serif;
+    font-family:Alfa Slab One;
     text-align:center;
 }
 
 h1, h2, h4 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   color:darkred;
-  font-family: lato; 
+  font-family: Alfa Slab One; 
   margin: 0;
   text-transform: uppercase;
   text-align: center;
